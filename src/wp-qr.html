@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WhatsApp QR</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="topbar"><div class="brand">WP QR</div><nav><a href="home.html">Home</a></nav></header>
+  <main class="container">
+    <h2>Generate WhatsApp QR</h2>
+    <label>Enter your number with country code (example +94XXXXXXXXX)</label>
+    <input id="qrNum" placeholder="+94" />
+    <button id="genQR">GENERATE QR CODE</button>
+    <div id="qrResult" class="result"></div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
